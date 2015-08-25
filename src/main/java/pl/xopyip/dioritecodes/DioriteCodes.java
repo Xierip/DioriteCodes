@@ -91,7 +91,7 @@ public class DioriteCodes extends DioritePlugin {
                                         .append(commandSender.getName()).color(ChatColor.GOLD).bold(true)
                                         .append(" przepisal kod jako pierwszy.").color(ChatColor.BLUE).create()));
                 assert finalItems != null;
-                ((Player)commandSender).getInventory().add(new BaseItemStack(Material.matchMaterial(finalItems.get(random.nextInt(finalItems.size() - 1)))));
+                ((Player)commandSender).getInventory().add(new BaseItemStack(Material.matchMaterial(finalItems.get(random.nextInt(finalItems.size())))));
                 lastCode = "";
                 lastCodeGeneration -= TimeUnit.MINUTES.toMillis(1);
 
