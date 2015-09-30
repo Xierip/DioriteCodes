@@ -1,16 +1,11 @@
 package pl.xopyip.dioritecodes;
 
 import org.diorite.Diorite;
-import org.diorite.cfg.Configuration;
-import org.diorite.cfg.yaml.DioriteYamlConstructor;
 import org.diorite.chat.ChatColor;
 import org.diorite.chat.component.ComponentBuilder;
 import org.diorite.command.CommandPriority;
 import org.diorite.command.PluginCommandBuilder;
 import org.diorite.entity.Player;
-import org.diorite.impl.cfg.ConfigManagerImpl;
-import org.diorite.impl.cfg.DioriteConfigImpl;
-import org.diorite.impl.inventory.item.ItemStackImpl;
 import org.diorite.inventory.item.BaseItemStack;
 import org.diorite.material.Material;
 import org.diorite.plugin.DioritePlugin;
